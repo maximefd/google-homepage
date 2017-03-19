@@ -5,8 +5,23 @@ html{
 
 .clogo{
   margin-top: 201px;
+  position: static;
+  background-attachment: scroll;
 }
 
+.stfr{
+  position: relative;
+  color: rgb(66, 133, 244);
+  font-family: roboto-regular, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  left: 105px;
+  line-height: 16px;
+  white-space: nowrap;
+  font-language-override: normal;
+  top: -22px;
+  width: 225px;
+}
 
 .fbox{
 	max-width: 584px;
@@ -59,4 +74,18 @@ html{
   font-family: Arial, sans-serif;
   border-style: solid;
   border-color: rgb(242, 242, 242);
+}
+
+.ntxt{
+  margin-top: 12px;
+  margin-bottom: 24px;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+
+.link{
+  text-decoration: none;
+  color: rgb(26, 13, 171);
+  padding-left: 3px;
+  padding-right: 3px;
 }
