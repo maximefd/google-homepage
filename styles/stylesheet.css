@@ -3,6 +3,23 @@ html{
   -webkit-appearance: none;
 }
 
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  float: right;
+}
+
+li p{
+  display: block;
+  padding: 8px;
+  color: grey;
+}
+
+
 .clogo{
   margin-top: 201px;
   position: static;
