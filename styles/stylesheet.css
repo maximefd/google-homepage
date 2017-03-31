@@ -19,6 +19,31 @@ li p{
   color: grey;
 }
 
+nav{
+  height: 30px;
+  font-size: 13px;
+  font-family: arial, sans-serif;
+  opacity: 0.75;
+  text-align: right;
+  white-space: nowrap;
+}
+
+#bluebutton{
+  background-color: rgb(67, 135, 253);
+  margin-top: 15px;
+  border-style: solid;
+  border-color: rgb(66, 133, 244);
+  border-radius: 2px;
+  color: white;
+  font-weight: 700;
+  line-height: 28px;
+  padding: 0,12px,0,12px;
+  display: inline-block;
+}
+
+.space{
+  padding-left: 15px;
+}
 
 .clogo{
   margin-top: 201px;
