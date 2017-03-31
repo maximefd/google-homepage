@@ -43,6 +43,7 @@ nav{
 
 .space{
   padding-left: 15px;
+  padding-right: 15px;
 }
 
 .clogo{
@@ -136,4 +137,78 @@ nav{
   color: rgb(26, 13, 171);
   padding-left: 3px;
   padding-right: 3px;
+}
+
+footer{
+  height: 137px;
+  display: block;
+  margin: 0;
+  position: absolute;
+  width: 99%;
+}
+
+#down{
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-origin: padding-box;
+  line-height: 40px;
+  position: absolute;
+  background-position: 0%,0%,0%,0%;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+}
+
+#low{
+  font-family: sans-serif;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+    border-top: 0.5px solid #d9d9d9;
+}
+
+.leftf{
+  display: block;
+  font-family: sans-serif;
+  height: 18px;
+  margin-left: 20px;
+}
+
+.leftf p{
+  font-size: 13px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  display: inline;
+  width: auto;
+  height: auto;
+  color: #8c8c8c;
+  padding-bottom: 10px;
+}
+
+.rightf{
+  display: block;
+  font-family: sans-serif;
+  height: 18px;
+  margin-right: 20px;
+}
+
+.rightf p{
+  font-size: 13px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  display: inline;
+  width: auto;
+  height: auto;
+  color: #8c8c8c;
+  padding-bottom: 10px;
 }
